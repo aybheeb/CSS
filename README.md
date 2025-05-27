@@ -1,2 +1,2 @@
 # CSS
-Practicing CSS skills
+Practicing CSS skills from scratch
