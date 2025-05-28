@@ -1,0 +1,79 @@
+/* Basic body styles (lowest specificity: element selector) */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* All div elements */
+div{
+    margin: 10px;
+}
+
+/* All paragraph elements */
+p {
+    color: #666;
+}
+
+/* Header styling (highest specificity: ID selector) */
+#main-header {
+    background-color: #004d40;
+    text-align: center;
+    color: white;
+}
+
+/* Event time styling (medium specificity: class selector, uses !important) */
+.event-time {
+    color: #0277bd !important; /* Overrides other color rules */
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Event section headings (combined selectors for higher specificity) */
+.event h2 {
+    color: #00695c;
+    text-align: center;
+}
+
+/* Event container styling (class selector) */
+.event {
+    background-color: #e0f2f1;
+}
+
+/* Highlighted notes (class selector) */
+.highlight-note {
+    background-color: #b2dfdb;
+    text-align: center;
+}
+
+/* Footer contact info (ID selector) */
+#contact-info {
+    border-top: 1px solid #80cbc4;
+    text-align: center;
+}
+
+/* Footer paragraph styling (descendant selector) */
+footer p{
+    color: #004d40;
+    font-size: 15px;
+    border: #004d40 1px solid;
+}
+
+/* Inherited border and bold text for contact and phone classes */
+.contact, .phone {
+    border: inherit;
+    font-weight: bold;
+}
+
+/* Specific event borders (ID selectors) */
+#quran-class {
+    border: 4px solid #004d40;
+}
+
+#youth-program {
+    border: 4px solid #0277bd;
+}
+
+#iftar-dinner {
+    border: 4px solid #d32f2f;
+}

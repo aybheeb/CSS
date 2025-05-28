@@ -1,0 +1,25 @@
+
+p{
+    color: red;
+}
+
+.styled-with-class {
+    color: blue;
+}
+
+#styled-with-id {
+    color: green;
+}
+/* 
+Specificity determines which CSS rule is applied when multiple rules target the same element.
+- The `p` selector is a type selector (specificity: 0,0,0,1).
+- The `.styled-with-class` selector is a class selector (specificity: 0,0,1,0).
+- The `#styled-with-id` selector is an ID selector (specificity: 0,1,0,0).
+
+The selector with the highest specificity takes precedence:
+- ID selectors (`#styled-with-id`) override class selectors and type selectors.
+- Class selectors (`.styled-with-class`) override type selectors.
+- Type selectors (`p`) have the lowest specificity.
+
+Therefore, if a paragraph has an ID of `styled-with-id`, it will be green. If it has the class `styled-with-class` but no ID, it will be blue. Otherwise, all other paragraphs will be red.
+*/

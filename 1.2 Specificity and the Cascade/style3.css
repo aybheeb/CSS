@@ -1,0 +1,16 @@
+footer p {
+  color: gray;
+  border: 2px solid blue;
+}
+.special-text {
+    color: gold;
+    border: 3px dotted green;
+}
+
+.special-text {
+    color: red;
+/* 
+ * Inheritance in CSS is the way by which some property values are passed from parent elements to their children.
+ * Not all CSS properties are inherited, typically, text-related properties like color and font are inherited, while box model properties are not.
+ */
+}

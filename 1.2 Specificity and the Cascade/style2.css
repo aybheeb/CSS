@@ -1,0 +1,15 @@
+p { 
+    color: blue; 
+}
+.special { 
+    color: orange; 
+}
+.highlight { 
+    color: green !important; 
+}
+
+/*
+At first the 'p' was green due to source order, and then purple after in-line styles were applied.
+However, the `!important` rule in the `.highlight` class overrides both the color set by the in-line style, the `p` selector and the `.special` class.
+The final color of the paragraph will be green.
+*/
