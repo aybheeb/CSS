@@ -1,0 +1,75 @@
+/* Base element selectors for semantic HTML elements */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+/* Header styling using ID selector */
+#page-header {
+    text-align: center;
+    background-color: #ffffff;
+}
+
+/* Main content container using ID selector */
+#schedule-container {
+    background-color: #f5f5f5;
+}
+
+/* Activity styling using class selector */
+.activity {
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+/* Status indicators using class selectors */
+.status {
+    font-size: 0.875rem;
+}
+
+.completed {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.pending {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.upcoming {
+    background-color: #cce5ff;
+    color: #004085;
+}
+
+/* Important tasks using class selector */
+.important, .urgent {
+    color: #dc3545;
+}
+
+/* Time element styling */
+time {
+    color: #666;
+}
+
+/* Reminders section using ID selector */
+#daily-reminders {
+    background-color: #fff3cd;
+}
+
+/* Current date styling using class selector */
+.current-date {
+    color: #007bff;
+}
+
+/* Heading styles using element selectors */
+h1 {
+    color: #2c3e50;
+}
+h2 {
+    color: #2c3e50;
+    text-align: center;
+}
+h3 {
+    color: #6c4a00;
+}

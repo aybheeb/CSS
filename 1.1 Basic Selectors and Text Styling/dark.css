@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #292B2F;
+}
+#main-title{
+    color: #f8f8f8;
+}
+
+.prayer-name{
+    font-size: 21px;
+}
+
+.prayer-time{
+    font-size: 18px;
+}
+.date{
+    text-align: center;
+}
+
+h2{
+    color: #f8f8f8;
+}
+p{
+    color: #dadaf1;
+}
+
+span{
+    color: #e3d6e9;
+}

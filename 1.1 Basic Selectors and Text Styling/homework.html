@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 1.1</title>
+    <link rel="stylesheet" href="homework.css">
+</head>
+<body>
+    <header id="page-header">
+        <h1>My Daily Schedule</h1>
+        <p>Your schedule for <span class="current-date">May 28, 2025</span></p>
+    </header>
+
+    <main id="schedule-container">
+        <section class="time-block">
+            <h2>Morning</h2>
+            <div class="activity">
+                <time>8:00 AM</time>
+                <span class="task important">Team Meeting</span>
+                <span class="status completed">Completed</span>
+            </div>
+            <div class="activity">
+                <time>10:30 AM</time>
+                <span class="task">Project Work</span>
+                <span class="status pending">In Progress</span>
+            </div>
+        </section>
+
+        <section class="time-block">
+            <h2>Afternoon</h2>
+            <div class="activity">
+                <time>1:00 PM</time>
+                <span class="task">Lunch Break</span>
+                <span class="status upcoming">Upcoming</span>
+            </div>
+            <div class="activity" id="priority-task">
+                <time>2:30 PM</time>
+                <span class="task important">Client Call</span>
+                <span class="status upcoming">Upcoming</span>
+            </div>
+        </section>
+
+        <aside class="reminders" id="daily-reminders">
+            <h3>Reminders</h3>
+            <ul>
+                <li class="urgent">Prepare presentation for tomorrow</li>
+                <li>Submit weekly report</li>
+                <li>Schedule team building event</li>
+            </ul>
+        </aside>
+    </main>
+</body>
+</html>
