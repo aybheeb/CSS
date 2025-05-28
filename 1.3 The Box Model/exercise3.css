@@ -1,0 +1,24 @@
+.overflow-box{
+    width: 250px;
+    height: 150px;
+    background-color: #9C27B0;
+    padding: 15px;
+    overflow: auto;
+}
+
+.inner-box2{
+    width: 100%;
+    background-color: #7fffd4;
+    color: #000000;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.inner-box1{
+    width: 100%;
+    background-color: #352e26;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+}
